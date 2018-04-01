@@ -1,0 +1,10 @@
+a=int(input())
+print(a)
+b=list()
+for i in range(a):
+  c=int(input())
+  b.append(int(c))
+print(b)
+c=max(b)
+d=min(b)
+print(d,c)
